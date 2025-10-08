@@ -152,7 +152,6 @@ body {
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
-
 }
 
 #image1 {
@@ -186,7 +185,7 @@ body {
     margin-bottom: 3em;
 }
 
-section {
+.section {
     margin: 6em 0;
 }
 
@@ -291,6 +290,7 @@ section {
     text-decoration: underline;
     color: #1D1D1D;
     width: max-content;
+    cursor: pointer;
 }
 
 #redUnderline {
@@ -416,7 +416,7 @@ td .link {
     font-size: 22px;
     line-height: 100%;
     letter-spacing: 0%;
-
+    cursor: pointer;
 }
 
 #adaptiveWidth {
@@ -612,7 +612,7 @@ td .link {
     }
 
     #blueBorder {
-        width: 90vw;
+        width: auto;
         padding: 1.5em;
     }
 }
